@@ -47,7 +47,13 @@ span{
   color: rgb(132, 14, 201);
 }
 #inscreva-se-btn{
-  
+  border: 2px solid rgb(132, 14, 201);
+  padding: 10px;
+  border-radius: 15px;
+}
+#inscreva-se-btn:hover{
+  background-color: rgb(132, 14, 201);
+  color: white;
 }
 p{
   line-height: 20px;
@@ -58,4 +64,29 @@ p{
 img{
   width: 600px;
 
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+}
+input{
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+
+}
+form [type="submit"]{
+  height: 50px;
+  width: 50%;
+  background-color: rgb(132, 14, 201);
+  color: white;
+  font-weight: bold;
+}
+form [type="submit"]:hover{
+  cursor: pointer;
 }
